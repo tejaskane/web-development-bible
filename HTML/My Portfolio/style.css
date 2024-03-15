@@ -1,0 +1,45 @@
+body{
+    color: white;
+    background-color: rgb(74, 70, 70);
+}
+
+a{
+    color: white;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.myphoto{
+    border: 2px solid white;
+    border-radius: 40%;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button{
+    height: 50px;
+    width: 90;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 7px 3px rgba(0,0,0,0.4);
+}
